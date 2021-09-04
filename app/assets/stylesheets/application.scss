@@ -13,3 +13,35 @@
  *= require_tree .
  *= require_self
  */
+
+@import 'bootstrap/scss/bootstrap';
+
+.container-login {
+  @extend .container-fluid;
+  max-width: 576px;
+  padding: 2rem;
+}
+
+// 「ログインしました」などのフラッシュ用スタイル
+
+.alert-notice {
+  @extend .alert-info;
+}
+
+.alert-alert {
+  @extend .alert-danger;
+}
+
+.btn {
+  width: 100%;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+.form-group {
+  padding-top: 10px;
+}
