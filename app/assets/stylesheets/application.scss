@@ -45,3 +45,73 @@
 .form-group {
   padding-top: 10px;
 }
+
+header {
+  background-color: silver;
+}
+
+.nav-item {
+  color: #fff;
+}
+
+// topページ
+.top-img {
+  position: relative;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  width: 100%;
+  opacity: 0.7;
+  // min-height: 100vh;
+  height: 100vh;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.container {
+  width: 430px;
+  margin: 0 auto;
+  margin-top: 130px;
+}
+
+.container h2 {
+  text-align: center;
+  font-size: 50px;
+  color: chocolate;
+}
+
+.features {
+  display: flex;
+  margin-top: 100px;
+}
+
+.feature {
+  background-color: lightcoral;
+  width: 30%;
+  margin-left: 3%;
+  padding-top: 10px;
+  border-radius: 15px;
+}
+
+.feature-description {
+  text-align: center;
+}
+
+.py-4 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding-top: 0.8rem;
+  height: 50px;
+  background-color: silver;
+  margin-top: 3rem;
+  padding-bottom: 0;
+}
